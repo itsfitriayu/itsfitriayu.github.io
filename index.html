@@ -404,15 +404,6 @@
                                     </div>
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
                                         <form class="contact__form" method="post" action="mail.php" >
-                                            <!-- form message -->
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                                        Your message was sent successfully.
-                                                    </div>
-                                                </div>
-                                            </div>
-                                                <!-- end message -->
                                             <div class="input-field">
                                                 <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
                                             </div>
@@ -423,6 +414,16 @@
                                                 <textarea class="form-control" name="message" id="message" required placeholder="Message"></textarea>
                                             </div>
                                             <button class="btn" type="submit">Submit</button>
+                                            
+                                            <!-- form message -->
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                                        Your message was sent successfully.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                                <!-- end message -->
                                         </form>
                                     </div>
                                 </div>
@@ -447,6 +448,9 @@
         </div>>
     </div>  
     
+    
+    <script src="mail.php"></script>
+
     <script src="js/jquery.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
