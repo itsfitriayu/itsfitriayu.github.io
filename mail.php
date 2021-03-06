@@ -15,7 +15,7 @@
             http_response_code(400);
             echo "Please complete the form and try again.";
             exit;
-        }
+        } 
         
         # Mail Content
         $content = "Name: $name\n";
