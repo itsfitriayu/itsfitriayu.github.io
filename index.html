@@ -403,7 +403,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6 animate" data-animate="fadeInUp">
-                                        <form class="contact__form" method="post" action="mail.php" >
+                                        <form class="contact__form" method="post" action="https://formspree.io/f/xoqpognn" >
                                             <div class="input-field">
                                                 <input type="text" class="form-control" name="name" id="name" required placeholder="Name">
                                             </div>
@@ -450,7 +450,13 @@
         </div>>
     </div>  
     
-    
+    <!-- See more examples of how to use Formbutton at formspree.io/formbutton/docs -->
+  <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
+  <script>
+    window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments)};
+    formbutton("create", {action: "https://formspree.io/f/xoqpognn"})
+  </script>
+  
     <script src="mail.php"></script>
 
     <script src="js/jquery.js"></script>
