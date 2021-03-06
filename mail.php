@@ -37,6 +37,7 @@
             echo "Oops! Something went wrong, we couldn't send your message.";
         }
 
+
     } else {
         # Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
