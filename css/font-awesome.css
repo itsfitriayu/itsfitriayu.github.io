@@ -677,6 +677,7 @@
 }
 .fa-globe:before {
   content: "\f0ac";
+  font: normal normal normal 22px/1 FontAwesome;
 }
 .fa-wrench:before {
   content: "\f0ad";
