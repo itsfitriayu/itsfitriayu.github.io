@@ -38,6 +38,7 @@
 	}
 	.service-box h3 {
 		font-size:18px;
+		text-align: center;
 	}
 	h1, h2 {
 		font-size:56px;
@@ -59,6 +60,7 @@
 	}
 	.service-box {
 		padding:20px 20px;
+
 	}
 	.testimonial-content {
 		font-size:18px;
@@ -120,14 +122,14 @@
 		margin-top:35px;
 	}
 	.social-icons li a {
-	  width:25px;
-	  height:30px;
+	  width:0px;
+	  height:35px;
 	  display:inline-block;
-	  line-height:30px;
+	  line-height:35px;
 	  text-align:center;
 	  background: rgba(255, 255, 255, 0.1);
 	  color: rgba(255,255,255,1);
-	  font-size:14px;
+	  font-size:16px;
 	}
 	.menu-trigger {
 		margin:0;
@@ -198,6 +200,14 @@
 	}
 }
 @media only screen and (max-width: 767px) {
+	.welcome-name {
+		font-size: 60px;
+		margin-bottom:5px;
+	}
+	.welcome-name1 {
+		font-size: 60px;
+		margin-bottom:10px;
+	}
 	#header {
 		position: fixed;
 		top: 0;
@@ -357,7 +367,14 @@
 	}
 }
 @media only screen and (max-width: 575px) {
-	.welcome-title {
+	.welcome-name {
+		font-size: 60px;
+		margin-bottom:5px;
+	}
+	.welcome-name1 {
+		font-size: 60px;
+		margin-bottom:10px;
+	}	.welcome-title {
 		font-size: 40px;
 	}
 	.welcome-first {
@@ -418,6 +435,14 @@
 	}
 }
 @media only screen and (max-width: 460px) {
+	.welcome-name h1{
+		font-size: 40%;
+		margin-bottom:3px;
+	}
+	.welcome-box h1{
+		font-size: 20px;
+		margin-bottom:50px;
+	}
 	h4 {
 		font-size: 14px;
 	}
